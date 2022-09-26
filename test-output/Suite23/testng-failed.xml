@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Suite23]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Test23(failed)">
+    <classes>
+      <class name="TestNGHIndi.ParallelHindi">
+        <methods>
+          <include name="VerifyLogo"/>
+        </methods>
+      </class> <!-- TestNGHIndi.ParallelHindi -->
+    </classes>
+  </test> <!-- Test23(failed) -->
+</suite> <!-- Failed suite [Suite23] -->
